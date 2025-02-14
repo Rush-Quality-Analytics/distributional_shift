@@ -3,9 +3,7 @@ Data and Python source code for replicating analyses of "Measurement and compari
 
 ## Purpose
 
-The statistical concept of shift is often used to describe changes or directional differences in statistical moments (e.g., mean, variance) or entire distributions. In a [recent study](https://arxiv.org/abs/2401.11119), We propose that shift can also be used to describe individual frequency distributions. We define distributional shift (DS) as the concentration of frequencies towards the lowest discrete class, e.g., the left-most bin of a histrogram. We derive a measure of DS as a normalized sum of exponentiated cumulative frequencies. We also define relative distributional shift (RDS) as the difference in DS between distributions, yielding a measure that quantifies the direction and magnitude of difference between frequency distributions.
-
-The data and source code of this repository pertain to our [recent study](https://arxiv.org/abs/2401.11119) wherein we: 1) Use empirical datasets to demonstrate DS as a measure of species rarity, economic poverty, and resource scarcity, 2) use multiple data generating processes to show that RDS is closely related to other comparative measures, and 3) Apply RDS to video image analysis by demonstrating its performance against established measures in the detection of light events, changes in complex patterns, detection of patterns within visual noise, and shifts in the color spectrum.
+The concentration of a discrete or continuous distribution of frequencies or probabilities toward a lower bound is a conceptually simple property that historically lacks a global descriptive statistic. We recently termed this property ‘shift’ and defined it as the distance of a central tendency from an upper bound, expressed as a proportion of a finite range. The source code of this repository pertains to our [recent study](https://arxiv.org/abs/2401.11119) of the shift statistics that we develop.
 
 ## Files & Directories
 
