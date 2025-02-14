@@ -7,32 +7,32 @@ The concentration of a discrete or continuous distribution of frequencies or pro
 
 ## Files & Directories
 
-<details><summary>main_analyses_sans_images.ipynb</summary>
-This Jupyter notebook file is used to generate all analyses and figures 1 through 5 of our study. It does not contain source code pertaining to image analysis.
+<details><summary>Fig1_ShiftSkew.ipynb</summary>
+This Jupyter notebook file is used to generate analyses of the relationship between shift and skewness (Figure 1 of our manuscript).
 </details>
 
-<details><summary>main_image_analysis.ipynb</summary>
-This Jupyter notebook file is used to generate image analyses pertaining to figure 6 of our recent study.
+<details><summary>Fig2_DistMetics.ipynb</summary>
+This Jupyter notebook file is used to generate comparative analyses between |Δ𝒮| and established distance metrics (Figure 2 of our manuscript).
 </details>
 
-<details><summary>supplemental_measure_comparisons.ipynb</summary>
-This Jupyter notebook file is used to generate supplemental analyses of comparisons of RDS to measures of distance, divergence, intersection, and probabilistic scoring, i.e., Supplemental figures 1 - 6 of our recent study.
+<details><summary>Fig3_Fig4_Rarity.ipynb</summary>
+This Jupyter notebook file is used to generate comparative analyses between 𝒮  and established measures of rarity (Figures 3 and 4 of our study). The analyses use combinatorical feasible sets of integer partitions.
 </details>
 
-<details><summary>supplemental_image_analysis.ipynb</summary>
-This Jupyter notebook file is used to generate all supplemental image analyses of our recent study.
+<details><summary>Fig5_Poverty.ipynb</summary>
+This Jupyter notebook file is used to generate comparative analyses between 𝒮 and established measures of poverty (Figure 5 of our study).
+</details>
+
+<details><summary>Fig6_ImageAnalysis.ipynb</summary>
+This Jupyter notebook file is used to generate a relatively basic analysis of a synthetic video using our shift statistics (𝒮, Δ𝒮, |Δ𝒮|) and Wasserstein Distance (Figure 6 of our study).
 </details>
 
 <details><summary>license</summary>
 This MIT license applies only to source code. It does not pertain to or exert any rights over, e.g., data, images, or video files.
 </details>
 
-<details><summary>Supplement</summary>
-This directory contains a single pdf file, Supplement_for_Preprint.pdf. This file accompanies the preprint of our [recent study](https://arxiv.org/abs/2401.11119)
-</details>
-
 <details><summary>data</summary>
-This directory contains additional directories that are used by Jupyter notebooks to conduct analyses.
+This directory contains a single directory (time_lapse_video), which holds a single file (synthetic_video_no_noise_no_bars.mp4). This video file is used in the `Fig6_ImageAnalysis.ipynb` file.
 </details>
 
 <details><summary>Final_Figs</summary>
